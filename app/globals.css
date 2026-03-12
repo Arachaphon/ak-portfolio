@@ -24,15 +24,23 @@ body{
 }
 
 section{
-  max-width:900px;
-  margin:auto;
-  padding:70px 20px;
+  padding:60px 0;
 }
 
 h1,h2{
   font-family: var(--font-serif);
 }
 
+h1{
+  font-size:40px;
+}
+
+h2{
+  font-size:22px;
+  margin-bottom:12px;
+}
+
 p{
   color: var(--muted);
+  line-height:1.65;
 }

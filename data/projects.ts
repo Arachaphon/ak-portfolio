@@ -3,6 +3,7 @@ export const projects = [
     title: "The Nexus — Dormitory Management System",
     period: "Year 2, Sem 2",
     role: "Full-Stack Developer",
+    image: ["/projects/thenexus/login.png","/projects/thenexus/home.png","/projects/thenexus/create.png","/projects/thenexus/manage.png"],
     techStack: ["React", "TypeScript", "Hono", "Cloudflare D1"],
     description: [
       "Designed a normalized relational schema (10 tables) modeling dormitory operations",

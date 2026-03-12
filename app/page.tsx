@@ -6,7 +6,7 @@ import Contact from "@/components/sections/Contact";
 
 export default function Page() {
   return (
-    <main className="max-w-[1200px] mx-auto px-6 py-16 ">
+    <main className="max-w-[1200px] mx-auto px-6 py-16">
       <Hero />
       <AboutMe />
       <TechStack />

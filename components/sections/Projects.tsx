@@ -8,12 +8,27 @@ export default function Projects() {
       {projects.map((project) => (
         <div
           key={project.title}
-          className="border-b pb-6 space-y-3"
+          className="border-b pb-6 space-y-4"
           style={{ borderColor: "var(--border)" }}
         >
           <h3 className="font-medium">{project.title}</h3>
 
           <p className="text-sm">{project.role}</p>
+
+          {/* images */}
+          {project.image && (
+            <div className="grid grid-cols-2 gap-3">
+              {project.image.map((img) => (
+                <img
+                  key={img}
+                  src={img}
+                  alt={project.title}
+                  className="border object-cover"
+                  style={{ borderColor: "var(--border)" }}
+                />
+              ))}
+            </div>
+          )}
 
           <div className="flex gap-2 flex-wrap pt-2">
             {project.techStack.map((tech) => (
@@ -39,6 +54,7 @@ export default function Projects() {
               <a
                 href={project.links.demo}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="px-3 py-1 border"
                 style={{ borderColor: "var(--border)" }}
               >
@@ -50,6 +66,7 @@ export default function Projects() {
               <a
                 href={project.links.github}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="px-3 py-1 border"
                 style={{ borderColor: "var(--border)" }}
               >
@@ -61,6 +78,7 @@ export default function Projects() {
               <a
                 href={project.links.github_frontend}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="px-3 py-1 border"
                 style={{ borderColor: "var(--border)" }}
               >
@@ -72,6 +90,7 @@ export default function Projects() {
               <a
                 href={project.links.github_backend}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="px-3 py-1 border"
                 style={{ borderColor: "var(--border)" }}
               >

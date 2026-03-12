@@ -31,7 +31,7 @@ export default function RootLayout({
     <html lang="en" className={`${dmSans.variable} ${dmSerif.variable}`}>
       <body className="font-sans">
         <Navbar />
-        <div className="pt-[52px]">{children}</div>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

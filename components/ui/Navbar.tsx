@@ -34,7 +34,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className="fixed top-0 left-0 right-0 z-50 h-[52px] flex items-center justify-between px-8 border-b backdrop-blur-md"
+      className="fixed top-0 left-0 right-0 z-50 h-[56px] flex items-center justify-between px-8 border-b backdrop-blur-md"
       style={{
         background: "rgba(63,53,43,0.92)",
         borderColor: "var(--border)",
@@ -57,7 +57,7 @@ export default function Navbar() {
             <li key={href} className="relative">
               <a
                 href={href}
-                className="text-[13px] tracking-wide transition-colors duration-200"
+                className="text-[14px] tracking-wide transition-colors duration-200"
                 style={{
                   color: isActive ? "#f6e8d7" : "#d8c3ae",
                 }}
