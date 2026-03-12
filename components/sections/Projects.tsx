@@ -8,8 +8,8 @@ export default function Projects() {
       {projects.map((project) => (
         <div
           key={project.title}
-          className="border-b pb-6"
-          style={{borderColor:"var(--border)"}}
+          className="border-b pb-6 space-y-3"
+          style={{ borderColor: "var(--border)" }}
         >
           <h3 className="font-medium">{project.title}</h3>
 
@@ -20,7 +20,7 @@ export default function Projects() {
               <span
                 key={tech}
                 className="text-sm px-2 py-1 border"
-                style={{borderColor:"var(--border)"}}
+                style={{ borderColor: "var(--border)" }}
               >
                 {tech}
               </span>
@@ -32,6 +32,53 @@ export default function Projects() {
               <li key={d}>{d}</li>
             ))}
           </ul>
+
+          {/* links */}
+          <div className="flex gap-3 pt-2 text-sm">
+            {project.links.demo && (
+              <a
+                href={project.links.demo}
+                target="_blank"
+                className="px-3 py-1 border"
+                style={{ borderColor: "var(--border)" }}
+              >
+                Demo
+              </a>
+            )}
+
+            {project.links.github && (
+              <a
+                href={project.links.github}
+                target="_blank"
+                className="px-3 py-1 border"
+                style={{ borderColor: "var(--border)" }}
+              >
+                GitHub
+              </a>
+            )}
+
+            {project.links.github_frontend && (
+              <a
+                href={project.links.github_frontend}
+                target="_blank"
+                className="px-3 py-1 border"
+                style={{ borderColor: "var(--border)" }}
+              >
+                Frontend
+              </a>
+            )}
+
+            {project.links.github_backend && (
+              <a
+                href={project.links.github_backend}
+                target="_blank"
+                className="px-3 py-1 border"
+                style={{ borderColor: "var(--border)" }}
+              >
+                Backend
+              </a>
+            )}
+          </div>
         </div>
       ))}
     </section>

@@ -2,7 +2,7 @@ import { techStack } from "@/data/techStack";
 
 export default function TechStack() {
   return (
-    <section id="stack" className="space-y-6">
+    <section id="stack" className="space-y-6 scroll-mt-[70px]">
       <h2 className="text-xl font-medium">Tech Stack</h2>
 
       <div className="grid grid-cols-2 gap-6">
@@ -15,7 +15,7 @@ export default function TechStack() {
                 <span
                   key={tech}
                   className="px-2 py-1 text-sm border"
-                  style={{borderColor:"var(--border)"}}
+                  style={{ borderColor: "var(--border)" }}
                 >
                   {tech}
                 </span>

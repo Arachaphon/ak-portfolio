@@ -6,7 +6,7 @@ export default function Contact() {
       <div className="space-y-2 text-sm">
         <p>Email: arachaphonklinchueng@gmail.com</p>
         <p>Phone: 097 054 0944</p>
-        <p>GitHub: github.com/Arachaphon</p>
+        <a href="https://github.com/Arachaphon">GitHub: github.com/Arachaphon</a>
         <p>Location: Chiang Mai, Thailand</p>
       </div>
     </section>

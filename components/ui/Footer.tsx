@@ -8,10 +8,7 @@ export default function Footer() {
       }}
     >
       <div className="max-w-[900px] mx-auto px-8 py-6 flex items-center justify-between">
-        <span
-          className="text-xs"
-          style={{ color: "#d8c3ae" }}
-        >
+        <span className="text-xs" style={{ color: "#d8c3ae" }}>
           © 2025 Arachaphon Klinchuen
         </span>
 
