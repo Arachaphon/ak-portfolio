@@ -58,7 +58,7 @@ export default function Projects() {
                 className="px-3 py-1 border"
                 style={{ borderColor: "var(--border)" }}
               >
-                View Live
+                View Live 
               </a>
             )}
 
