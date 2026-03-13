@@ -17,6 +17,7 @@ export const projects = [
     title: "Gravity Plan — To-Do List Website",
     period: "Year 2, Sem 1",
     role: "Frontend Developer (Database Contributor)",
+    image: ["/projects/gravity/todolist.png","/projects/gravity/pomo.png","/projects/gravity/watch.png","/projects/gravity/trash.png"],
     techStack: ["Vue", "Tailwind CSS", "JavaScript", "Supabase"],
     description: [
       "Designed task data structure supporting tagging, prioritization, and soft deletion",
@@ -29,6 +30,7 @@ export const projects = [
     title: "Magic Nails — Nail Booking Web Application",
     period: "Year 1, Sem 2",
     role: "Frontend Developer",
+    image: ["/projects/magic/login.png","/projects/magic/nail.png"],
     techStack: ["HTML", "CSS", "JavaScript"],
     description: [
       "Developed frontend booking interface with responsive layouts",
