@@ -8,7 +8,7 @@ export default function Contact() {
           href="mailto:arachaphonklinchueng@gmail.com"
           className="block hover:underline"
         >
-          Email: arachaphonklinchueng@gmail.com
+          Email: arachaphonklinchuen@gmail.com
         </a>
 
         <a
