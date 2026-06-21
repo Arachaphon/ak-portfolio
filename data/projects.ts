@@ -4,11 +4,11 @@ export const projects = [
     period: "Year 3",
     role: "Backend Developer",
 
-    image: [
-      "/projects/kinyark/home.png",
-      "/projects/kinyark/search.png",
-      "/projects/kinyark/recipe.png",
-    ],
+    // image: [
+    //   "/projects/kinyark/home.png",
+    //   "/projects/kinyark/search.png",
+    //   "/projects/kinyark/recipe.png",
+    // ],
 
     techStack: [
       "Next.js",
@@ -38,8 +38,8 @@ export const projects = [
     ],
 
     links: {
-      github: "...",
-      demo: "...",
+      github: " https://github.com/Arachaphon/kinyark-ingredients.git",
+      demo: "https://kinyark-ingredients.vercel.app",
     },
   },
   {
