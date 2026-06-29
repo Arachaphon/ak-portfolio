@@ -29,12 +29,12 @@ export const projects = [
     ],
 
     description: [
-      "ออกแบบฐานข้อมูล PostgreSQL จำนวน 10 ตาราง รองรับสูตรอาหาร วัตถุดิบ รีวิว และข้อมูลผู้ใช้งาน",
-      "พัฒนา Backend Service ด้วย Prisma ORM และ Supabase สำหรับจัดการข้อมูลภายในระบบ",
-      "พัฒนาระบบยืนยันตัวตนด้วย Supabase Auth และ JWT",
-      "พัฒนาระบบค้นหาและกรองสูตรอาหารจากวัตถุดิบที่ผู้ใช้มี",
-      "พัฒนาระบบอัปโหลดรูปภาพ ตรวจสอบข้อมูลด้วย Zod และจัดเก็บผ่าน Supabase Storage",
-      "พัฒนา End-to-End Testing ด้วย Playwright และร่วมจัดทำ CI/CD ด้วย GitHub Actions และ Vercel",
+"Designed a PostgreSQL database schema with 10 relational tables to support recipes, ingredients, reviews, and user management." ,
+" Developed backend services using Prisma ORM and Supabase for efficient data management.",
+"Implemented user authentication and authorization using Supabase Auth and JWT.",
+"Built a recipe search and filtering system based on user-available ingredients.",
+"Developed an image upload pipeline with Zod validation and Supabase Storage integration.",
+"Implemented end-to-end testing with Playwright and contributed to the CI/CD pipeline using GitHub Actions and Vercel.",
     ],
 
     links: {
