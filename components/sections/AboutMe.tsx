@@ -22,7 +22,7 @@ export default function AboutMe() {
           billing workflows, utility tracking, and role-based access control.
         </p>
 
-        <p>GPAX: 3.81</p>
+        <p>GPAX: 3.85</p>
       </div>
 
       <img className="w-46 h-46 rounded-xl object-cover" src="/profile.jpg" />
