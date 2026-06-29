@@ -11,7 +11,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl mb-4 text-[var(--muted)]">
-          Full-Stack Developer
+          [Full-Stack Developer/Frontend Developer/Backend Developer]
         </p>
 
         <p className="leading-relaxed mb-6">

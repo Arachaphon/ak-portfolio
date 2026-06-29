@@ -9,7 +9,7 @@ export default function AboutMe() {
 
         <p>
           Third-year Software Engineering student at the University of Phayao
-          specializing in full-stack web development.
+          interested in full-stack web development.
         </p>
 
         <p>
