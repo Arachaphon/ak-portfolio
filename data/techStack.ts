@@ -12,7 +12,7 @@ export const techStack: Record<string, string[]> = {
   Database: ["PostgreSQL", "MySQL", "SQLite", "Cloudflare D1"],
   Tools: [
     "Git",
-    "GitHub",
+    "GitHub.",
     "Docker",
     "Playwright",
     "GitHub Actions",
