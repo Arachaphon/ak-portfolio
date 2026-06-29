@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Kinyark Ingredients",
-    period: "Year 3",
+    period: "Year 3 Sem 1",
     role: "Backend Developer",
 
     // image: [
